@@ -4,12 +4,12 @@ use PHPUnit\Framework\TestCase;
 
 class StackTest extends TestCase
 {
-    public function testEmpty()
+    public function testEmpty():array
     {
-        $stack = [];
-        $this->assertEmpty($stack);
+        $stack = [1];
+        $this->assertNotEmpty($stack);
 
-        return $stack;
+        return [];
     }
 
     /**
