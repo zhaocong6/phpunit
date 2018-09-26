@@ -1,5 +1,7 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
+
 class DependencyAndDataProviderComboTest extends TestCase
 {
     public function provider()
